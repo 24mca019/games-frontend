@@ -1,0 +1,64 @@
+.game-page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .game-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .game-header h1 {
+    color: #1976d2;
+  }
+  
+  .game-content {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Add to GameGallery.css or create Games.css */
+.game-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background: #f0f5ff;
+}
+
+.game-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #1976d2;
+  color: white;
+  border-radius: 8px;
+}
+
+.game-header h2 {
+  margin: 0;
+}
+
+.game-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+/* index.css or App.css */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
